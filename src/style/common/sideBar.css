@@ -1,0 +1,38 @@
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 20px;
+    background-color: #4d4d4d;
+}
+
+.sidebar-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #c0c0c0;
+    letter-spacing: 2px;
+    font-size: 18px;
+    padding-top: 10px;
+    transition: ease-in 0.3s;
+    line-height: 40px;
+}
+
+.sidebar-link:hover {
+    font-size: 19px;
+    color: #f7f7f7;
+    font-weight: bold;
+}
+
+.sidebar-link.active {
+    font-size: 19px;
+    color: #f7f7f7;
+    font-weight: bold;
+}
+
+.sidebar-link-container {
+    border-bottom: inset 0.5px;
+    width: 90%;
+}

@@ -1,0 +1,63 @@
+.postCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.postCard {
+    border: 1px solid black;
+    margin: 1%;
+    width: 30%;
+    background-color: rgba(255, 238, 218, 0.61);
+    flex-basis: 300px;
+    align-self: center;
+    border: solid gray 3px;
+    border-radius: 3%;
+}
+
+
+
+.postCard:hover{
+    transform: scale(1.01);
+
+}
+
+.category{
+
+    margin : 0 0 0.5rem 0.5rem;
+    padding: 0.3rem;
+    border: green 1px solid;
+    display: inline-block;
+    color: white;
+    background: green;
+    border-radius: 5%;
+}
+
+
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.deleteButtonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 5px;
+}
+
+.deleteButton {
+    cursor: pointer;
+}
+
+.buttonDetails {
+    background: rgba(0, 102, 255, 0.781);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 3px 5px;
+    border-radius: 5px;
+}

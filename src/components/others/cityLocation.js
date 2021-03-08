@@ -1,0 +1,26 @@
+export const cityLocation = [
+    
+    'Angeles City',
+    'Apalit',
+    'Arayat',
+    'Bacolor',
+    'Candaba',
+    'Floridablanca',
+    'Guagua',
+    'Lubao',
+    'Mabalacat',
+    'Macabebe',
+    'Magalang',
+    'Masantol',
+    'Mexico',
+    'Minalin',
+    'Porac',
+    'San Fernando',
+    'San Luis',
+    'San simon',
+    'Sasmuan',
+    'Sta. Ana',
+    'Sta. Rita',
+    'Sto. Tomas',
+    
+]

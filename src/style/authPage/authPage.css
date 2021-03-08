@@ -1,0 +1,121 @@
+.auth-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 93vh;
+}
+
+.authBackgroundImage {
+    width: 220%;
+    height: 100%;
+    background-image: url('../../img/hands-charity.png');
+    background-size: 46%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom left;
+}
+
+.authTitle {
+    font-family: 'Lobster', cursive;
+    letter-spacing: 5px;
+    font-size: 46px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+
+/* All form properties */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: flex-start;
+    width: 70vh;
+}
+
+.form-input-file::-webkit-file-upload-button {
+    display: none;
+}
+
+.form-input-file {
+    width: 100%;
+    margin-top: 2px;
+    margin-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form-input-file::before {
+    content: 'Upload Files';
+    display: inline-block;
+    border: solid 1px;
+    border-radius: 5%;
+    padding: 2px 30px;
+    margin: 4px 20px;
+    font-weight: bold;
+}
+
+.form-label {
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin: 5px 0px 2px 0px;
+}
+
+.authDetails {
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.form-input-text {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.form-link {
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin-right: 5px;
+}
+
+.authDetails {
+    width: 500px;
+    text-align: justify;
+}
+
+.form-button {
+    height: 35px;
+    width: 45%;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: rgba(0, 123, 255, 0.692);
+    color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.form-button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.authForm {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,33 @@
+.donateNowContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donationContent {
+    margin: 0 15% 1% 15%
+}
+
+.donate-button {
+    height: 50px;
+    padding: 2px 40px;
+    letter-spacing: 2px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f7f7f7;
+    border: none;
+    background: #5cb85c;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.donate-button:hover {
+    background: #6cd66c;
+    color: #f7f7f7;
+}
+
+.donate-button:active {
+    background: #73e473;
+    color: white;
+}
